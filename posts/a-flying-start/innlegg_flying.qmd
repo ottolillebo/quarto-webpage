@@ -25,7 +25,8 @@ Maternity leave policies have been central to discussions on how to best support
 
 However, our  examination of this claim, based on a closer look at how the policy was implemented, shows that the paper by CLS was based on an uncorrect understanding of the reform. Rather than an introduction of payed maternity leave, the reform was actually an extension of existing benefits from 12 to 18 weeks. In this post we`ll discuss how this affect the original study's empirical approach, and how JPE delt with our findings and the process of getting a comment published in JPE.
 
-The original article can be found [here](https://doi.org/10.1086/679627), or ungated [here](https://hdl.handle.net/1956/17157). Our ungated (note that our article is gated at JPEs website) can be found here and CLS' (ungated at JPEs website) reply to us can be found here.
+The original article can be found [here](https://doi.org/10.1086/679627), or ungated [here](https://hdl.handle.net/1956/17157). Our ungated (note that our article is gated at JPEs website) can be found [here](https://github.com/ottolillebo/quarto-webpage/raw/master/posts/a-flying-start/Not%20a%20Flying%20Start_Main%20Manuscript.pdf)
+ and CLS' (ungated at JPEs website) reply to us can be found here.
 
 ## Background
 
@@ -209,7 +210,7 @@ Which we find odd given the compelling evidence of how the reform actually was i
 
 > Unfortunately, I don’t think we learn much from your search for specifications that produces insignificant results. I have tried to be flexible in allowing you to make the case for this material, but I am still not convinced that you have uncovered much along these lines that is worthy of a top journal. I would be perfectly happy if your comment ended with a short concluding paragraph after section 2. You seem reluctant to go this route. 
 
-After another try, we complied with the comment, even if we strongly disagreed. The paper, as linked to in the introduction, was accepted for publication in July 2023. When was the paper published online as just accepted? July 2024. This implies that the original authors had an entire year to create a reply to us. Given the editors comment that our methodological contribution was not worthy of a top journal, we find it interesting that the same journal allowed the original authors to run a long set of regressions proving that even though the reform was interpreted differently, there is still some effect. The main result from the response by CLS (in our view) is the following: 
+After another try, we complied with the comment, even if we strongly disagreed. The paper, as linked to in the introduction, was accepted for publication in July 2023. When was the paper published online as just accepted July 2024. This implies that the original authors had an entire year to create a reply to us. Given the editors comment that our methodological contribution was not worthy of a top journal, we find it interesting that the same journal allowed the original authors to run a long set of regressions proving that even though the reform was interpreted differently, there is still some effect. The main result from the response by CLS (in our view) is the following: 
 
 <figure style="width: 100%; margin-left: 0%; text-align: center;">
   <img src="images/image001.png" alt="Average main outcomes by birth month" style="width: 100%; height: auto; max-width: none;">
