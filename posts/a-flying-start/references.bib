@@ -1,0 +1,35 @@
+# Create the BibTeX entry as a string
+bibtex_entry <- '@techreport{NOU1995,
+  title = {Pappa kom hjem},
+  author = {{NOU 1995: 27}},
+  year = {1995},
+  number = {NOU 1995: 27},
+  institution = {Regjeringen},
+  address = {Oslo},
+  url = {http://www.regjeringen.no/nb/dep/bld/dok/nouer/1995/nou-1995-27.html?id=115764}
+}'
+
+bibtex_entry <- @article{carneiro2015flying,
+  title={A flying start? Maternity leave benefits and long-run outcomes of children},
+  author={Carneiro, Pedro and L{\o}ken, Katrine V and Salvanes, Kjell G},
+  journal={Journal of Political Economy},
+  volume={123},
+  number={2},
+  pages={365--412},
+  year={2015},
+  publisher={University of Chicago Press Chicago, IL}
+}
+
+@article{butikofer2021impact,
+  title={The impact of paid maternity leave on maternal health},
+  author={B{\"u}tikofer, Aline and Riise, Julie and M. Skira, Meghan},
+  journal={American Economic Journal: Economic Policy},
+  volume={13},
+  number={1},
+  pages={67--105},
+  year={2021},
+  publisher={American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203-2425}
+}
+
+# Write the entry to a .bib file
+writeLines(bibtex_entry, "references.bib")
