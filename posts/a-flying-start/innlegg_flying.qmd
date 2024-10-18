@@ -25,7 +25,8 @@ Maternity leave policies have been central to discussions on how to best support
 
 However, our  examination of this claim, based on a closer look at how the policy was implemented, shows that the paper by CLS was based on an uncorrect understanding of the reform. Rather than an introduction of payed maternity leave, the reform was actually an extension of existing benefits from 12 to 18 weeks. In this post we`ll discuss how this affect the original study's empirical approach, and how JPE delt with our findings and the process of getting a comment published in JPE.
 
-The original article can be found [here](https://doi.org/10.1086/679627), or ungated [here](https://hdl.handle.net/1956/17157). Our ungated (note that our article is gated at JPEs website) can be found [here](https://github.com/ottolillebo/quarto-webpage/raw/master/posts/a-flying-start/Not%20a%20Flying%20Start_Main%20Manuscript.pdf)
+The original article can be found [here](https://doi.org/10.1086/679627), or ungated [here](https://hdl.handle.net/1956/17157). Our ungated (note that our article is gated at JPEs website) can be found [by clicking here](https://github.com/ottolillebo/quarto-webpage/raw/master/posts/a-flying-start/Not%20a%20Flying%20Start_Main%20Manuscript.pdf)
+
  and CLS' (ungated at JPEs website) reply to us can be found here. 
 
 ## Background
