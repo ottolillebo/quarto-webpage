@@ -2,7 +2,7 @@
 title: "Revisiting the 1977 Norwegian Maternity Leave Reform"
 description: |
   In this post, we examine a widely cited study on Norway's 1977 maternity leave reform published in the Journal of Political Economy. We investigate how the characterization of policy changes can affect conclusions about their impacts. Our analysis reveals that the reform, described as introducing paid maternity leave, was actually an extension of existing benefits. We explore the implications of this finding for interpreting the study's conclusions on child outcomes. We also discuss the process from which we decided to write a paper about the implication to the final published paper, and how Journal of Political Economy delt with this issue. 
-date: 2024-10-18
+date: 2024-10-21
 output:
   distill::distill_article:
     self_contained: false
@@ -182,16 +182,22 @@ var captionText = document.getElementById("caption");
 var originalCaption = document.getElementById("originalCaption");
 var expandNotice = document.getElementById("expandNotice");
 
-img.onclick = function(){
+img.onclick = function() {
   modal.style.display = "block";
   modalImg.src = this.src;
-  // Only use the main part of the caption, excluding the "Click image to expand"
   captionText.innerHTML = originalCaption.innerHTML.replace('<br> <strong id="expandNotice">Click image to expand</strong>', '');
   originalCaption.style.display = "none";  // Hide the original caption when the modal is open
 }
 
+// Close the modal when clicking on the "X"
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
+  modal.style.display = "none";
+  originalCaption.style.display = "block";  // Show the original caption when the modal is closed
+}
+
+// Close the modal when clicking anywhere in the modal (outside the image)
+modal.onclick = function() {
   modal.style.display = "none";
   originalCaption.style.display = "block";  // Show the original caption when the modal is closed
 }
@@ -326,16 +332,22 @@ var captionText2 = document.getElementById("caption2");
 var originalCaption2 = document.getElementById("originalCaption2");
 var expandNotice2 = document.getElementById("expandNotice2");
 
-img2.onclick = function(){
+img2.onclick = function() {
   modal2.style.display = "block";
   modalImg2.src = this.src;
-  // Only use the main part of the caption, excluding the "Click image to expand"
   captionText2.innerHTML = originalCaption2.innerHTML.replace('<br> <strong id="expandNotice2">Click image to expand</strong>', '');
   originalCaption2.style.display = "none";  // Hide the original caption when the modal is open
 }
 
+// Close the second modal when clicking on the "X"
 var span2 = document.getElementsByClassName("close2")[0];
 span2.onclick = function() { 
+  modal2.style.display = "none";
+  originalCaption2.style.display = "block";  // Show the original caption when the modal is closed
+}
+
+// Close the second modal when clicking anywhere in the modal (outside the image)
+modal2.onclick = function() {
   modal2.style.display = "none";
   originalCaption2.style.display = "block";  // Show the original caption when the modal is closed
 }
@@ -388,7 +400,8 @@ Given what CLS write in the note, its a bit difficult to understand what they ha
 
 ## Summary and final thoughts
 
-Our reexamination of the studies by Carneiro, Løken, and Salvanes (2015) and Bütikofer, Riise, and Skira (2021) reveals critical mischaracterizations of Norway’s 1977 maternity leave reform. Contrary to their claims, the reform did not introduce paid maternity leave but merely extended existing paid leave from 12 to 18 weeks. Furthermore, the studies' identification strategy, assuming a sharp cutoff date for the reform’s implementation, is flawed. In reality, the reform was rolled out gradually, meaning the supposed treatment and control groups often had identical maternity leave conditions.
+
+Our reexamination of the studies by Carneiro, Løken, and Salvanes (2015) reveals critical mischaracterizations of Norway’s 1977 maternity leave reform. Contrary to their claims, the reform did not introduce paid maternity leave but merely extended existing paid leave from 12 to 18 weeks. Furthermore, the studies' identification strategy, assuming a sharp cutoff date for the reform’s implementation, is flawed. In reality, the reform was rolled out gradually, meaning the supposed treatment and control groups often had identical maternity leave conditions.
 
 Our replication of the CLS study initially produced results similar to those reported. However, once we corrected data irregularities and made necessary methodological adjustments, the effects largely disappeared. This process, particularly in light of how the Journal of Political Economy handled our submission, raises concerns. While CLS were given considerable freedom in their response to us, our paper was subject to intense scrutiny, and material that could have refuted CLS's conclusions was excluded from the final version.
 
