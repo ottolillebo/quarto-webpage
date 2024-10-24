@@ -1,14 +1,13 @@
 ---
 title: "Revisiting the 1977 Norwegian Maternity Leave Reform"
 description: |
-  In this post, we examine a widely cited study on Norway's 1977 maternity leave reform published in the Journal of Political Economy. We investigate how the characterization of policy changes can affect conclusions about their impacts. Our analysis reveals that the reform, described as introducing paid maternity leave, was actually an extension of existing benefits. We explore the implications of this finding for interpreting the study's conclusions on child outcomes. We also discuss the process from which we decided to write a paper about the implication to the final published paper, and how Journal of Political Economy delt with this issue. 
+  In this post, we examine a widely cited study on Norway's 1977 maternity leave reform published in the Journal of Political Economy. We investigate how the characterization of policy changes can affect conclusions about their impacts. Our analysis reveals that the reform, described as introducing paid maternity leave, was actually an extension of existing benefits. We explore the implications of this finding for interpreting the study's conclusions on child outcomes.
 date: 2024-10-21
 output:
   distill::distill_article:
     self_contained: false
 toc: true
 toc-expand: 2
-toc-location: right
 toc-title: "Outline"
 bibliography: references.bib
 preview: images/pic2_sd.jpg
@@ -54,18 +53,6 @@ Our findings, however, show: - The reform was implemented in stages: January 1 f
 
 These discrepancies raise important questions about the CLS study’s methodology and conclusions. The absence of a sharp entitlement cutoff and the gradual implementation challenge the study’s analytical approach.
 
-Interestingly, an [earlier working paper from 2008](https://www.researchgate.net/profile/Katrine-Loken/publication/228788935_A_flying_start_Maternity_leave_and_long-term_outcomes_for_mother_and_child/links/0fcfd508e7c26196cc000000/A-flying-start-Maternity-leave-and-long-term-outcomes-for-mother-and-child.pdf), offered a more accurate description of the reform. On page 10, the authors wrote:
-
-> In 1956 the maternity leave benefits became common to women in Norway through the introduction of compulsory sickness insurance for all employees. The length of the maternity leave was 12 weeks, but the compensation varied substantially (@ronsen2002family).[^1] From July 1st 1977 paid maternity leave was extended to 18 weeks and unpaid maternity leave up to one year.
-
-[^1]: Page 124 in @ronsen2002family compares the countries Norway, Sweden and Finland and writes the following: *Compared to Swedish and Finnish mothers, Norwegian mothers had a much shorter leave entitlement throughout the period studied.*
-
-However, by 2010, [a new working-paper](https://ekstern.filer.uib.no/svf/2010/WP0610.pdf) stated:
-
-> On July 1st, 1977, Norway saw the introduction of paid maternity leave and an increase in unpaid leave.
-
-This evolution in how the reform was presented highlights the complexity of policy research and the need for thorough historical verification.
-
 ## Identification
 
 The CLS study on Norway's 1977 maternity leave reform reported significant positive effects on children's educational attainment and adult earnings. However, a closer examination of their methodology and data raises some important questions.
@@ -96,7 +83,7 @@ Given the correct interpretation of the reforms implementation, the above identi
 We've created graphs showing average outcomes by birth month for dropout rates, college attendance, and log earnings at age 30.
 
 <!-- Regular image on the page -->
-<figure style="width: 120%; text-align: center;">
+<figure style="width: 100%; text-align: center;">
   <img id="myImg" src="images/pic2_sd.jpg" alt="Average main outcomes by birth month" style="width: 100%; height: auto; max-width: none; cursor: pointer;"/>
   <figcaption style="margin-top: 10px;" id="originalCaption">
     Figure 1. Average main outcomes by birth month <br> 
@@ -246,7 +233,7 @@ When we analyze the reform based on its correct implementation details, comparin
 Analyzing the reform with corrected implementation details—comparing offspring born after July 1, 1977, with those born before April 9, and adjusting for public sector employment—we find no significant effects across various identification strategies. Additionally, outcomes depicting average outcomes by birth month for dropout rates, college attendance, and log earnings at age 30 support our findings.
 
 <!-- Regular image on the page -->
-<figure style="width: 120%; text-align: center;">
+<figure style="width: 100%; text-align: center;">
   <img id="myImg2" src="images/pic3.jpg" alt="Estimates based on alternative datasets, treatment eligibility criteria, and model specifications (with 95% confidence intervals)" style="width: 100%; height: auto; max-width: none; cursor: pointer;"/>
   <figcaption style="margin-top: 10px;" id="originalCaption2">
     Figure 2. Estimates based on alternative datasets, treatment eligibility criteria, and model specifications (with 95% confidence intervals) <br> 
