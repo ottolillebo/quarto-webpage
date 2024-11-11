@@ -28,7 +28,7 @@ The original article by CLS can be found [here](https://doi.org/10.1086/679627),
 
 ## Background
 
-In their 2015 study, @carneiro2015flying (CLS) described the 1977 reform in Norway as introducing paid maternity leave for the first time. In reality, the reform extended the existing paid leave by five to six weeks, with a staggered implementation across different employment sectors.
+In their 2015 study, @carneiro2015flying (CLS) described the 1977 reform in Norway as introducing paid maternity leave for the first time. In reality, the reform extended the existing paid leave by five to six weeks, with a staggered implementation across different employment sectors. 
 
 This distinction is crucial because the original analysis assumed that only mothers giving birth after July 1, 1977, were entitled to paid leave. This cutoff was used to claim benefits for children. Our analysis shows that this assumption was incorrect: there was no sharp difference between mothers giving birth before and after this date. Consequently, the reported effects cannot be attributed to the reform as previously suggested.
 
