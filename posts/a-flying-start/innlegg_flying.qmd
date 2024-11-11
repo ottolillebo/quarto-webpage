@@ -203,10 +203,6 @@ These graphs reveal:
 
 These findings suggest that the positive effects reported in the CLS study may be artifacts of methodological choices rather than true reform impacts. The lack of a clear discontinuity and the sensitivity of results to control year selection call for caution in interpreting the study's conclusions.
 
-This reexamination underscores the importance of robust methodology in policy research and the need for careful consideration of historical context and data patterns.
-
-(Note: Detailed references and data sources for all points made in this section can be found in our full article, which is linked in the introduction of this post.)
-
 ## Methodological discussion
 
 In our reexamination of the CLS study on Norway's 1977 maternity leave reform, we identified several methodological decisions that significantly influence results and interpretations.
