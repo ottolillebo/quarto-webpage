@@ -5,7 +5,7 @@ about:
   template: jolla
   links:
     - text: '<img src="Bluesky_Logo.svg" alt="Bluesky" width="16" height="16"> Bluesky'
-      href: https://bsky.app/profile/ottolillebo.bsky.social
+      href: https://bsky.app/profile/ottolilllebo.bsky.social
 ---
 
 Mostly rambling about non-important stuff, occasional writing about my own mediocre research or other research I find interesting.
