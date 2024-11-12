@@ -350,7 +350,7 @@ modal2.onclick = function() {
 
 The originally reported effects, when viewed in light of the actual reform (a 5-6 week extension of existing leave), raise questions about plausibility. It's challenging to reconcile how such a modest change could result in a 5% increase in offspring earnings 30 years later.
 
-## Summary and final thoughts
+## Summary and final thoughts  
 
 Our reexamination of the studies by @carneiro2015flying reveals critical mischaracterizations of Norway’s 1977 maternity leave reform. Contrary to their claims, the reform did not introduce paid maternity leave but merely extended existing paid leave from 12 to 18 weeks. Furthermore, the studies' identification strategy, assuming a sharp cutoff date for the reform’s implementation, is flawed. In reality, the reform was rolled out gradually, meaning the supposed treatment and control groups often had identical maternity leave conditions. Our replication of the CLS study initially produced results similar to those reported. However, once we corrected data irregularities and made necessary methodological adjustments, the effects largely disappeared.
 
