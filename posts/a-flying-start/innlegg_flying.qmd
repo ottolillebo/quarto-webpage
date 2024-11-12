@@ -1,0 +1,350 @@
+---
+title: "Revisiting the 1977 Norwegian Maternity Leave Reform"
+description: |
+  In this post, we examine a widely cited study on Norway's 1977 maternity leave reform published in the Journal of Political Economy. We investigate how the characterization of policy changes can affect conclusions about their impacts. Our analysis reveals that the reform, described as introducing paid maternity leave, was actually an extension of existing benefits. We explore the implications of this finding for interpreting the study's conclusions on child outcomes. Our comment is published in Journal of Political Economy, but some empirical findings had to be omitted. These are discussed in this post.
+  
+date: 2024-11-11
+output:
+  distill::distill_article:
+    self_contained: false
+toc: true
+toc-expand: 2
+toc-title: "Outline"
+bibliography: references.bib
+preview: images/pic2_sd.jpg 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+Maternity leave policies are central to discussions on supporting families. In a widely cited 2015 study, @carneiro2015flying (CLS) claimed that extending paid maternity leave in Norway led to significant benefits for children, including higher educational attainment and increased earnings later in life. This was seen as evidence that early parental leave provides children with a "flying start" in life.
+
+However, our analysis shows that CLS’s paper was based on a misunderstanding of the reform. Rather than introducing paid maternity leave, the reform extended existing benefits from 12 to 18 weeks. In this post, we’ll explore how this misinterpretation affects the original study's empirical approach. Our findings are now published as a comment in the *Journal of Political Economy* (JPE), but without an empirical section. In this post we`ll also discuss some important empirical aspects. The comments from the editor of JPE noted that the empirical section was not worthy of a top journal, and, if it were to included, made it very difficult for us to write an empirical analysis that we could stand for.  
+
+The original article by CLS can be found [here](https://doi.org/10.1086/679627), or ungated [here](https://hdl.handle.net/1956/17157). Our ungated (note that our article is gated at [JPEs website](https://www.journals.uchicago.edu/doi/epdf/10.1086/732218)) can be found [by clicking here](https://github.com/ottolillebo/quarto-webpage/raw/master/posts/a-flying-start/Not%20a%20Flying%20Start_Main%20Manuscript.pdf) and CLS' (ungated at JPEs website) reply to us can be found [here](https://www.journals.uchicago.edu/doi/10.1086/732220). We also note that there has been no review-process for CLS`s reply. 
+
+## Background
+
+In their 2015 study, @carneiro2015flying (CLS) described the 1977 reform in Norway as introducing paid maternity leave for the first time. In reality, the reform extended the existing paid leave by five to six weeks, with a staggered implementation across different employment sectors. 
+
+This distinction is crucial because the original analysis assumed that only mothers giving birth after July 1, 1977, were entitled to paid leave. This cutoff was used to claim benefits for children. Our analysis shows that this assumption was incorrect: there was no sharp difference between mothers giving birth before and after this date. Consequently, the reported effects cannot be attributed to the reform as previously suggested.
+
+Key issues raised by our analysis include:
+
+-   **Reform characterization:** The 1977 reform extended paid leave from 12 to 18 weeks, rather than introducing it.
+
+-   **Implementation timeline:** The extension was applied in stages (January 1, May 1, and July 1), depending on the mother's employment sector, not on a single date.
+
+-   **Methodology considerations:** The discontinuity used by CLS to identify causal effects did not exist, making the analysis based on an invalid identification strategy.
+
+This reexamination underscores the complexity of policy research and the need for careful review of influential studies. As debates on parental leave policies continue, it's essential to consider multiple perspectives on how reforms were implemented and interpreted. Moreover, other researchers, including @butikofer2021impact, have referenced CLS's description of the reform, further highlighting the importance of accurate reform characterization.
+
+## Norway's 1977 Maternity Leave Reform
+
+The CLS study described the 1977 reform as: - Increasing mandatory paid maternity leave from 0 to 18 weeks. - Raising compensation to 100% of pre-birth salary. - Extending unpaid leave from 12 to 52 weeks, in addition to the 18 paid weeks.
+
+However, historical records paint a very different picture: - Paid maternity leave actually increased from 12 (or 13 for public sector employees) to 18 weeks. - Paid maternity leave had existed in Norway since at least the 1930s. - The raise to 100% compensation was implemented a year later, on July 1, 1978. - The total leave period (paid plus unpaid) was extended to 52 weeks, not 52 weeks on top of the 18 paid weeks.
+
+The CLS study also claimed: - A sharp discontinuity in entitlement on July 1, 1977. - Poor media coverage, making the reform largely unexpected.
+
+Our findings, however, show: - The reform was implemented in stages: January 1 for state employees, May 1 for other public sector workers, and July 1 for the private sector. - The extension applied to births in the months preceding each implementation date. - There was significant media coverage and political discussion in the years leading up to 1977.
+
+These discrepancies raise important questions about the CLS study’s methodology and conclusions. The absence of a sharp entitlement cutoff and the gradual implementation challenge the study’s analytical approach.
+
+## Identification
+
+The CLS study on Norway's 1977 maternity leave reform reported significant positive effects on children's educational attainment and adult earnings. However, a closer examination of their methodology and data raises some important questions.
+
+### The Approach by CLS
+
+CLS used several statistical techniques to identify the effects of the reform:
+
+1.  Single-difference (SD): Comparing children of eligible mothers born in June and July 1977.
+2.  Difference-in-differences (DD): Comparing the June-July difference in 1977 with other years.
+3.  Regression discontinuity (RD): Comparing births just before and after July 1, 1977.
+4.  Difference-in-regression discontinuity (RD-DD): Comparing the July 1 discontinuity in 1977 with other years.
+
+They used 1975, 1978, and 1979 as control years, intentionally excluding 1976 due to concerns about a new abortion law.
+
+### Our reexamination of the data
+
+Given the correct interpretation of the reforms implementation, the above identification gives several points of concern. Especially:
+
+1.  **No Clear Discontinuity**: Given the phased implementation of the reform, there was no sharp discontinuity on July 1, 1977, as assumed in the study.
+
+2.  **Month-to-Month Fluctuations**: Large, inconsistent fluctuations in outcomes between months across different years could lead to spurious results.
+
+3.  **June 1977 Anomaly**: The study's findings are heavily influenced by unusually poor outcomes for June 1977 births, particularly in earnings.
+
+4.  **Control Year Selection**: The choice of control years significantly impacts the results. Including 1976 (which was excluded in the original study) would have led to different conclusions.
+
+We've created graphs showing average outcomes by birth month for dropout rates, college attendance, and log earnings at age 30.
+
+<!-- Regular image on the page -->
+<figure style="width: 100%; text-align: center;">
+  <img id="myImg" src="images/pic2_sd.jpg" alt="Average main outcomes by birth month" style="width: 100%; height: auto; max-width: none; cursor: pointer;"/>
+  <figcaption style="margin-top: 10px;" id="originalCaption">
+    Figure 1. Average main outcomes by birth month <br> 
+    <em>Note:</em> The graphs are based on the original data used by CLS in the JPE paper and follow their definitions of outcomes and eligibility. 
+    <br> <strong id="expandNotice">Click image to expand</strong>
+  </figcaption>
+</figure>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<!-- CSS for Modal -->
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 90%;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+}
+
+.modal-content, #caption {  
+  animation: zoom 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+<!-- JavaScript to open the modal -->
+<script>
+var modal = document.getElementById("myModal");
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+var originalCaption = document.getElementById("originalCaption");
+var expandNotice = document.getElementById("expandNotice");
+
+img.onclick = function() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = originalCaption.innerHTML.replace('<br> <strong id="expandNotice">Click image to expand</strong>', '');
+  originalCaption.style.display = "none";  // Hide the original caption when the modal is open
+}
+
+// Close the modal when clicking on the "X"
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+  originalCaption.style.display = "block";  // Show the original caption when the modal is closed
+}
+
+// Close the modal when clicking anywhere in the modal (outside the image)
+modal.onclick = function() {
+  modal.style.display = "none";
+  originalCaption.style.display = "block";  // Show the original caption when the modal is closed
+}
+</script>
+
+
+
+These graphs reveal:
+
+1.  Significant month-to-month variations that don't follow consistent patterns across years.
+2.  The June 1977 cohort's unexpectedly poor performance driving much of the perceived "improvement" in July.
+3.  Control years (1975, 1978, 1979) showing a June-to-July decline, contrasting with 1977's pattern.
+
+### Implications of methodological choices
+
+These findings suggest that the positive effects reported in the CLS study may be artifacts of methodological choices rather than true reform impacts. The lack of a clear discontinuity and the sensitivity of results to control year selection call for caution in interpreting the study's conclusions.
+
+## Methodological discussion
+
+In our reexamination of the CLS study on Norway's 1977 maternity leave reform, we identified several methodological decisions that significantly influence results and interpretations.
+
+### Methodological Concerns
+
+1.  **Eligibility Criteria**: The study's maternity leave eligibility was based on inflated earnings figures, potentially including many ineligible women in the treatment group.
+
+2.  **Outcome Definitions**: Earnings at age 30 included social insurance payments, which may distort its interpretation as a labor market success indicator.
+
+3.  **Age Discrepancies**: Earnings for some cohorts were measured at ages 28 or 29, not 30 as described by CLS.
+
+4.  **Sample Selection**: Excluding individuals with missing education data effectively omitted those educated abroad.
+
+The CLS study excluded 1976 as a control year due to a new abortion law. However, our investigation suggests this decision warrants reconsideration. The 1976 law largely formalized existing practices, with minimal impact on abortion rates or authorization procedures. In fact, abortion numbers slightly decreased in 1976. A more substantial change occurred in 1979, when full self-determination in early pregnancy was introduced, yet even this had little effect on abortion rates.
+
+### Robustness of Findings
+
+We replicated the CLS study with modifications, such as adjusting the eligibility criterion, including previously omitted control years, amending outcome definitions, and extending the time window around the reform. As shown in Figure 2, these adjustments consistently shift the estimated effects towards zero or statistical insignificance.
+
+### Reassessing the Reform's Impact
+
+When we analyze the reform based on its correct implementation details, comparing offspring born after July 1, 1977, with those born before April 9, and adjusting for public sector employment, we find no significant effects across various identification strategies.
+
+Analyzing the reform with corrected implementation details—comparing offspring born after July 1, 1977, with those born before April 9, and adjusting for public sector employment—we find no significant effects across various identification strategies. Additionally, outcomes depicting average outcomes by birth month for dropout rates, college attendance, and log earnings at age 30 support our findings.
+
+<!-- Regular image on the page -->
+<figure style="width: 100%; text-align: center;">
+  <img id="myImg2" src="images/pic3.jpg" alt="Estimates based on alternative datasets, treatment eligibility criteria, and model specifications (with 95% confidence intervals)" style="width: 100%; height: auto; max-width: none; cursor: pointer;"/>
+  <figcaption style="margin-top: 10px;" id="originalCaption2">
+    Figure 2. Estimates based on alternative datasets, treatment eligibility criteria, and model specifications (with 95% confidence intervals) <br> 
+    <em>Note:</em> Estimates marked "CLS 2015" are from the JPE article. Estimates marked "CLS replication 2022" are based on correspondence with the authors through JPE (RD-DD) or calculated by us based on monthly replication data provided to us by CLS. All other estimates are based on our own replication (LMRZ).
+    <br> <strong id="expandNotice2">Click image to expand</strong>
+  </figcaption>
+</figure>
+
+<!-- The Modal for Figure 2 -->
+<div id="myModal2" class="modal">
+  <span class="close2">&times;</span>
+  <img class="modal-content" id="img02">
+  <div id="caption2"></div>
+</div>
+
+<!-- CSS for Modal (same as before) -->
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 90%;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+}
+
+.modal-content, #caption2 {  
+  animation: zoom 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+<!-- JavaScript to open the modal for Figure 2 -->
+<script>
+var modal2 = document.getElementById("myModal2");
+var img2 = document.getElementById("myImg2");
+var modalImg2 = document.getElementById("img02");
+var captionText2 = document.getElementById("caption2");
+var originalCaption2 = document.getElementById("originalCaption2");
+var expandNotice2 = document.getElementById("expandNotice2");
+
+img2.onclick = function() {
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+  captionText2.innerHTML = originalCaption2.innerHTML.replace('<br> <strong id="expandNotice2">Click image to expand</strong>', '');
+  originalCaption2.style.display = "none";  // Hide the original caption when the modal is open
+}
+
+// Close the second modal when clicking on the "X"
+var span2 = document.getElementsByClassName("close2")[0];
+span2.onclick = function() { 
+  modal2.style.display = "none";
+  originalCaption2.style.display = "block";  // Show the original caption when the modal is closed
+}
+
+// Close the second modal when clicking anywhere in the modal (outside the image)
+modal2.onclick = function() {
+  modal2.style.display = "none";
+  originalCaption2.style.display = "block";  // Show the original caption when the modal is closed
+}
+</script>
+
+
+The originally reported effects, when viewed in light of the actual reform (a 5-6 week extension of existing leave), raise questions about plausibility. It's challenging to reconcile how such a modest change could result in a 5% increase in offspring earnings 30 years later.
+
+## Summary and final thoughts
+
+Our reexamination of the studies by Carneiro, Løken, and Salvanes (2015) reveals critical mischaracterizations of Norway’s 1977 maternity leave reform. Contrary to their claims, the reform did not introduce paid maternity leave but merely extended existing paid leave from 12 to 18 weeks. Furthermore, the studies' identification strategy, assuming a sharp cutoff date for the reform’s implementation, is flawed. In reality, the reform was rolled out gradually, meaning the supposed treatment and control groups often had identical maternity leave conditions. Our replication of the CLS study initially produced results similar to those reported. However, once we corrected data irregularities and made necessary methodological adjustments, the effects largely disappeared. 
+
+This case highlights several important lessons for empirical research. First, accurate knowledge of institutional details is essential— mischaracterizing the reform led to erroneous interpretations of its impact. Second, researchers should be cautious when working without direct data on policy implementation, as in the case of missing parental leave take-up data. Additionally, the growing flexibility in data analysis can result in significant findings that are more a product of researcher degrees of freedom than true effects. Finally, the pressure to produce novel findings may bias researchers toward confirming their hypotheses, rather than challenging them.
+
+
+(Note: Detailed references and data sources for all points made in this section can be found in our full article, which is linked in the introduction of this blog post.)
