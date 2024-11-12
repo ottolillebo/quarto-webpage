@@ -11,7 +11,7 @@ toc: true
 toc-expand: 2
 toc-title: "Outline"
 bibliography: references.bib
-preview: images/pic2_sd.jpg
+preview: images/pic2_sd.jpg 
 ---
 
 ```{r setup, include=FALSE}
