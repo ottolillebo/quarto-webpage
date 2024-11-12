@@ -1,5 +1,5 @@
 ---
-title: "quarto-webpage"
+title: "Ottos hjemmeside"
 listing:
   contents: posts
   sort: "date desc"
